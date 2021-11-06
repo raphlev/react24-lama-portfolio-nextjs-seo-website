@@ -26,4 +26,8 @@ Image component from next.js must be confgure with domain in next config file
 See YT > 2h:02mn : In case of deployment to web hosting provider, domain must be added in .env file
 
 ## deploymnet with ssl certificate
-See YT > 2h:04mn:20sec : Image urls are https - Add ssl certifficate to see them
+See YT > 2h:04mn:20sec : Image urls are https - Add ssl certifficate to see them (HOSTINGER example)
+
+Deployed on netlify or any other hosting provider
+- see .env file : add env variable on host provider : Example for netlify in site settings > NEXT_PUBLIC_URL=https://rlu-lama-portfolio-nextjs-seo-website.netlify.app
+Otherwise the images will not be visible.
